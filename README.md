@@ -12,7 +12,9 @@ Digi Store adalah aplikasi e-commerce sederhana berbasis Laravel yang memungkink
 - Responsive Design (Tailwind CSS)
 
 ## Screenshot
-<img width="1920" height="1080" alt="{5A1C60D3-B340-4068-ADDA-9C2933691CC2}" src="https://github.com/user-attachments/assets/cde7d3e0-b917-4558-a183-0a3abfbb4861" /> <img width="1917" height="800" alt="image" src="https://github.com/user-attachments/assets/55af3479-d6be-4774-b5c0-ad303f202933" /> <img width="1897" height="919" alt="image" src="https://github.com/user-attachments/assets/15310684-47c1-4187-86e1-37ad11e3bbc4" /> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/477e1cac-f6a2-435c-85fb-48d917dac553" /> <img width="1902" height="1080" alt="image" src="https://github.com/user-attachments/assets/f830e165-0a75-4475-922c-4e60cb700734" />
+<img width="1920" height="1080" alt="{5A1C60D3-B340-4068-ADDA-9C2933691CC2}" src="https://github.com/user-attachments/assets/cde7d3e0-b917-4558-a183-0a3abfbb4861" /> <img width="1917" height="800" alt="image" src="https://github.com/user-attachments/assets/55af3479-d6be-4774-b5c0-ad303f202933" /> <img width="1897" height="919" alt="image" src="https://github.com/user-attachments/assets/15310684-47c1-4187-86e1-37ad11e3bbc4" /> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/477e1cac-f6a2-435c-85fb-48d917dac553" /> <img width="1902" height="1080" alt="image" src="https://github.com/user-attachments/assets/f830e165-0a75-4475-922c-4e60cb700734" /> <img width="1896" height="920" alt="image" src="https://github.com/user-attachments/assets/f506c5c7-8206-43c5-a092-31ff13c989ae" /> <img width="1898" height="919" alt="image" src="https://github.com/user-attachments/assets/b4d577a0-ce50-46d0-a6c2-0b7e08996a33" />
+
+
 
 
 
