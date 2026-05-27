@@ -1,7 +1,8 @@
 
 # Digi Store
 
-![Screenshot Digi Store](docs/screenshot.png)
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/f759250a-1f37-421b-9d81-f99566a39fba" />
+
 
 > Digi Store adalah aplikasi web e-commerce modern berbasis Laravel yang memudahkan pengguna untuk mencatat, memahami, dan mengelola transaksi keuangan serta belanja produk digital secara real-time. Dengan fitur insight AI, dashboard interaktif, dan desain responsif, Digi Store membantu pengguna mencapai kontrol finansial yang lebih baik.
 
