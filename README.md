@@ -11,6 +11,10 @@ Digi Store adalah aplikasi e-commerce sederhana berbasis Laravel yang memungkink
 - Dashboard Admin
 - Responsive Design (Tailwind CSS)
 
+## ScreenShot
+<img width="1920" height="1080" alt="{5A1C60D3-B340-4068-ADDA-9C2933691CC2}" src="https://github.com/user-attachments/assets/cde7d3e0-b917-4558-a183-0a3abfbb4861" />
+
+
 ## Instalasi
 
 1. **Clone repository**
