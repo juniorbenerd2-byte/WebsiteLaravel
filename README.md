@@ -1,81 +1,106 @@
+
 # Digi Store
 
-Digi Store adalah aplikasi e-commerce sederhana berbasis Laravel yang memungkinkan pengguna untuk melihat, membeli, dan mengelola produk secara online.
+![Screenshot Digi Store](docs/screenshot.png)
+
+> Digi Store adalah aplikasi web e-commerce modern berbasis Laravel yang memudahkan pengguna untuk mencatat, memahami, dan mengelola transaksi keuangan serta belanja produk digital secara real-time. Dengan fitur insight AI, dashboard interaktif, dan desain responsif, Digi Store membantu pengguna mencapai kontrol finansial yang lebih baik.
+
+---
 
 ## Fitur Utama
-- Manajemen Produk (CRUD)
-- Kategori Produk
-- Keranjang Belanja
-- Checkout & Order
-- Autentikasi Pengguna
-- Dashboard Admin
-- Responsive Design (Tailwind CSS)
+
+- **Manajemen Produk (CRUD):** Tambah, edit, hapus, dan kelola produk digital dengan mudah.
+- **Kategori Produk:** Pengelompokan produk berdasarkan kategori.
+- **Keranjang Belanja:** Pengguna dapat menambah produk ke keranjang dan checkout.
+- **Checkout & Order:** Proses pembelian dan riwayat pesanan.
+- **Autentikasi Pengguna:** Registrasi, login, dan manajemen akun.
+- **Dashboard Admin:** Pantau statistik penjualan, transaksi, dan insight keuangan.
+- **AI Financial Insight:** Analisis pola transaksi dan rekomendasi keuangan.
+- **Laporan & Grafik:** Visualisasi pemasukan, pengeluaran, dan kategori.
+- **Desain Responsif:** Menggunakan Tailwind CSS, tampilan optimal di berbagai perangkat.
+
+## Teknologi yang Digunakan
+
+- **Laravel** (Backend)
+- **Tailwind CSS** (UI/UX)
+- **Vite** (Build tool)
+- **MySQL** (Database)
+- **JavaScript/Blade** (Frontend)
+
+## Screenshot
+
+Letakkan file screenshot aplikasi pada folder `docs/screenshot.png`.
+
+Contoh tampilan:
+
+![Contoh Screenshot](docs/screenshot.png)
+
+---
 
 ## Instalasi
 
 1. **Clone repository**
-	```bash
-	git clone <repo-url>
-	cd digi-store
-	```
+   ```bash
+   git clone <repo-url>
+   cd digi-store
+   ```
 2. **Install dependencies**
-	```bash
-	composer install
-	npm install
-	```
+   ```bash
+   composer install
+   npm install
+   ```
 3. **Copy file environment**
-	```bash
-	cp .env.example .env
-	```
+   ```bash
+   cp .env.example .env
+   ```
 4. **Generate application key**
-	```bash
-	php artisan key:generate
-	```
+   ```bash
+   php artisan key:generate
+   ```
 5. **Konfigurasi database**
-	Edit file `.env` sesuai konfigurasi database Anda.
+   Edit file `.env` sesuai konfigurasi database Anda.
 6. **Migrasi dan seeder database**
-	```bash
-	php artisan migrate --seed
-	```
+   ```bash
+   php artisan migrate --seed
+   ```
 7. **Build assets**
-	```bash
-	npm run build
-	```
+   ```bash
+   npm run build
+   ```
 8. **Jalankan server**
-	```bash
-	php artisan serve
-	```
+   ```bash
+   php artisan serve
+   ```
 
 Akses aplikasi di `http://localhost:8000`
 
+---
+
 ## Struktur Folder Penting
+
 - `app/Models` : Model Eloquent
 - `app/Http/Controllers` : Controller aplikasi
 - `database/migrations` : File migrasi database
 - `resources/views` : Blade template
 - `routes/web.php` : Routing utama
 
+---
+
+## Cara Penggunaan
+
+1. Register akun baru atau login.
+2. Tambahkan produk ke keranjang dan lakukan checkout.
+3. Pantau transaksi dan laporan keuangan di dashboard.
+4. Gunakan insight AI untuk rekomendasi pengelolaan keuangan.
+
+---
+
 ## Kontribusi
-Pull request dan issue sangat terbuka untuk pengembangan lebih lanjut.
+
+Pull request dan issue sangat terbuka untuk pengembangan lebih lanjut. Silakan fork repository ini dan ajukan perubahan atau perbaikan.
+
+---
 
 ## Lisensi
+
 Proyek ini menggunakan lisensi MIT.
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
