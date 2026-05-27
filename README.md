@@ -75,10 +75,6 @@ Mengelola hak akses dan memantau aktivitas pengunjung.
 - **MySQL** (Database)
 - **JavaScript/Blade** (Frontend)
 
-Contoh tampilan:
-
-![Contoh Screenshot](docs/screenshot.png)
-
 ---
 
 ## Instalasi
