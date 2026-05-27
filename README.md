@@ -1,106 +1,83 @@
+# 📱 DigiStore - E-Commerce Platform for Smartphones
 
-# Digi Store
-
-![Screenshot Digi Store](docs/screenshot.png)
-
-> Digi Store adalah aplikasi web e-commerce modern berbasis Laravel yang memudahkan pengguna untuk mencatat, memahami, dan mengelola transaksi keuangan serta belanja produk digital secara real-time. Dengan fitur insight AI, dashboard interaktif, dan desain responsif, Digi Store membantu pengguna mencapai kontrol finansial yang lebih baik.
+**DigiStore** adalah platform e-commerce modern berbasis web yang dirancang khusus untuk penjualan berbagai macam produk smartphone dari brand terkemuka. Aplikasi ini memisahkan pengalaman pengguna ke dalam dua sisi utama: **Customer Portal** yang interaktif untuk berbelanja dan **Admin Panel** yang kuat untuk manajemen inventaris, kategori, pesanan, hingga pengguna.
 
 ---
 
-## Fitur Utama
+## 🚀 Fitur Utama
 
-- **Manajemen Produk (CRUD):** Tambah, edit, hapus, dan kelola produk digital dengan mudah.
-- **Kategori Produk:** Pengelompokan produk berdasarkan kategori.
-- **Keranjang Belanja:** Pengguna dapat menambah produk ke keranjang dan checkout.
-- **Checkout & Order:** Proses pembelian dan riwayat pesanan.
-- **Autentikasi Pengguna:** Registrasi, login, dan manajemen akun.
-- **Dashboard Admin:** Pantau statistik penjualan, transaksi, dan insight keuangan.
-- **AI Financial Insight:** Analisis pola transaksi dan rekomendasi keuangan.
-- **Laporan & Grafik:** Visualisasi pemasukan, pengeluaran, dan kategori.
-- **Desain Responsif:** Menggunakan Tailwind CSS, tampilan optimal di berbagai perangkat.
+### 🛍️ Sisi Pelanggan (Customer Side)
+* **Landing Page Interaktif:** Tampilan beranda modern dengan banner promosi, navigasi cepat berdasarkan brand, dan statistik toko.
+* **Sistem Pencarian & Filter Canggih:** Memudahkan pelanggan menemukan smartphone impian berdasarkan brand, rentang harga, dan pengurutan produk terbaru.
+* **Detail Produk Komprehensif:** Informasi spesifikasi lengkap (RAM, Layar, Kamera, Prosesor, Baterai) beserta informasi stok waktu nyata (*real-time*).
+* **Dashboard Pelanggan:** Halaman khusus bagi pengguna untuk memantau status pesanan, riwayat belanja, dan jumlah item di keranjang.
+* **Autentikasi Aman:** Sistem pendaftaran akun baru (Register) dan masuk log (Login) yang aman bagi pelanggan.
 
-## Teknologi yang Digunakan
-
-- **Laravel** (Backend)
-- **Tailwind CSS** (UI/UX)
-- **Vite** (Build tool)
-- **MySQL** (Database)
-- **JavaScript/Blade** (Frontend)
-
-## Screenshot
-
-Letakkan file screenshot aplikasi pada folder `docs/screenshot.png`.
-
-Contoh tampilan:
-
-![Contoh Screenshot](docs/screenshot.png)
+### 💼 Sisi Admin (Admin Panel)
+* **Manajemen Produk:** Hak akses penuh untuk menambah, mengubah, menampilkan, atau menghapus (CRUD) katalog smartphone beserta status keunggulannya.
+* **Manajemen Kategori:** Pengelompokan brand smartphone yang dinamis disertai ikon visual.
+* **Manajemen Pesanan:** Memproses dan memantau status transaksi masuk dari pelanggan secara terstruktur.
+* **Manajemen Pengguna & Sesi Aktif:** Melacak pengguna yang terdaftar serta memantau sesi aktif admin dan pelanggan secara *real-time* demi keamanan sistem.
 
 ---
 
-## Instalasi
+## 📸 Dokumentasi Antarmuka (Screenshots)
 
-1. **Clone repository**
-   ```bash
-   git clone <repo-url>
-   cd digi-store
-   ```
-2. **Install dependencies**
-   ```bash
-   composer install
-   npm install
-   ```
-3. **Copy file environment**
-   ```bash
-   cp .env.example .env
-   ```
-4. **Generate application key**
-   ```bash
-   php artisan key:generate
-   ```
-5. **Konfigurasi database**
-   Edit file `.env` sesuai konfigurasi database Anda.
-6. **Migrasi dan seeder database**
-   ```bash
-   php artisan migrate --seed
-   ```
-7. **Build assets**
-   ```bash
-   npm run build
-   ```
-8. **Jalankan server**
-   ```bash
-   php artisan serve
-   ```
+### 👤 Tampilan Pengguna (Customer Interface)
 
-Akses aplikasi di `http://localhost:8000`
+#### 1. Beranda / Landing Page
+Halaman utama yang menyambut pengguna dengan desain bersih, minimalis, dan berfokus pada navigasi brand.
+![Landing Page](path/to/your/image/{4703ADDC-E615-4BA2-A168-F2FFECAC14A3}.png)
+
+#### 2. Autentikasi Pengguna (Login & Register)
+Sistem masuk dan daftar akun yang ramah pengguna dengan validasi formulir bawaan.
+| Halaman Masuk (Login) | Halaman Daftar (Register) |
+|---|---|
+| ![Login Page](path/to/your/image/{1350075E-0736-4886-AD8C-1BEF452932FE}.png) | ![Register Page](path/to/your/image/{5E48EA32-CB35-4CD0-AD90-922CFC6AFB37}.png) |
+
+#### 3. Katalog & Detail Produk
+Sistem filter produk yang responsif serta halaman spesifikasi teknis mendalam untuk setiap smartphone.
+| Katalog Produk & Filter | Detail Spesifikasi Produk |
+|---|---|
+| ![Product Catalog](path/to/your/image/image_3323bc.png) | ![Product Detail](path/to/your/image/image_332ec3.png) |
+
+#### 4. Dashboard Pelanggan
+Halaman ringkasan belanja untuk memantau keranjang dan pesanan yang sedang diproses.
+![Customer Dashboard](path/to/your/image/{7C79C6E9-9A0B-4285-BE89-E28537D91BAB}.png)
 
 ---
 
-## Struktur Folder Penting
+### 🔐 Tampilan Control Panel (Admin Interface)
 
-- `app/Models` : Model Eloquent
-- `app/Http/Controllers` : Controller aplikasi
-- `database/migrations` : File migrasi database
-- `resources/views` : Blade template
-- `routes/web.php` : Routing utama
+#### 1. Manajemen Produk
+Panel kendali utama bagi Admin untuk mengelola seluruh stok, harga, dan status keaktifan produk di toko.
+![Admin - Kelola Produk](path/to/your/image/image_333a2b.png)
 
----
+#### 2. Manajemen Kategori & Brand
+Mempermudah penambahan brand baru beserta penataan slug URL otomatis.
+![Admin - Kelola Kategori](path/to/your/image/image_3335c6.png)
 
-## Cara Penggunaan
+#### 3. Manajemen Pesanan & Transaksi
+Melacak pesanan masuk, metode pembayaran (seperti COD), dan memperbarui status pelacakan belanjaan.
+![Admin - Kelola Pesanan](path/to/your/image/image_333322.png)
 
-1. Register akun baru atau login.
-2. Tambahkan produk ke keranjang dan lakukan checkout.
-3. Pantau transaksi dan laporan keuangan di dashboard.
-4. Gunakan insight AI untuk rekomendasi pengelolaan keuangan.
-
----
-
-## Kontribusi
-
-Pull request dan issue sangat terbuka untuk pengembangan lebih lanjut. Silakan fork repository ini dan ajukan perubahan atau perbaikan.
+#### 4. Manajemen Pengguna & Riwayat Sesi
+Mengamankan platform dengan memantau siapa saja yang terdaftar dan melihat riwayat alamat IP serta browser dari sesi aktif.
+![Admin - Manajemen Pengguna](path/to/your/image/{20551643-19DE-4246-940E-F7D049B6FEDE}.png)
 
 ---
 
-## Lisensi
+## 🛠️ Teknologi yang Digunakan
 
-Proyek ini menggunakan lisensi MIT.
+* **Frontend:** HTML5, CSS3, Tailwind CSS (UIAesthetics)
+* **Backend:** PHP / Laravel Framework (Running on localhost:8000)
+* **Database:** MySQL / PostgreSQL (Session Driver: Database)
+* **Icons:** Emoji & Custom Vector Asset Fonts
+
+---
+
+## ⚙️ Cara Menjalankan Proyek Secara Lokal
+
+1. Kloning repositori ini:
+   ```bash
+   git clone [https://github.com/username-anda/DigiStore.git](https://github.com/username-anda/DigiStore.git)
